@@ -3,6 +3,6 @@ body{
 }
 
 .fontcolor{
-    font: arial;
+    font-family: arial;
     color: white;
 }
