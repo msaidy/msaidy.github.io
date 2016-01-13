@@ -8,3 +8,12 @@ body{
 }
 
 li { list-style: none; }
+
+a:visited {
+    color: aquamarine;
+}
+
+a:link {
+    text-decoration: none;
+}
+
