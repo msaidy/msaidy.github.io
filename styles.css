@@ -7,6 +7,11 @@ body{
     color: white;
 }
 
+.fontsize{
+    font-size: 24px;
+    
+}
+
 li { list-style: none; }
 
 a:visited {
