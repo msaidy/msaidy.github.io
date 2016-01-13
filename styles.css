@@ -6,3 +6,5 @@ body{
     font-family: fantasy;
     color: white;
 }
+
+li { list-style: none; }
