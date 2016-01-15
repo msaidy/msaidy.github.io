@@ -15,6 +15,7 @@ body{
 .footer{
     font-family: arial;
     color:grey;
+    font-size: 10px;
 }
 
 li { list-style: none; }
