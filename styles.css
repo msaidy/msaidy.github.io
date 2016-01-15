@@ -12,6 +12,11 @@ body{
     
 }
 
+.footer{
+    font-family: arial;
+    color:grey;
+}
+
 li { list-style: none; }
 
 a:visited {
