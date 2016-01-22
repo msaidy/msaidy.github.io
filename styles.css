@@ -20,25 +20,27 @@ body{
     font-size: 10px;
 }
 
-li { list-style: none; }
+li { 
+    list-style: none; 
+}
 
 /*Navigation*/
+
+
+a:link {
+    text-decoration: none;
+    color:darkcyan;
+}
+
+a:hover{
+    color:cyan;
+}
+
 a:visited {
     color: aquamarine;
 }
 
-a:link {
-    text-decoration: none;
-    color:azure;
-}
-
-a:unvisited{
-    
-    color:dodgerblue;   
-}
-a:hover{
-    color:darkcyan;
-}
+/* section/nav backgrounds*/
 
 .sectionbkg{
     background-color: darkslategrey;
