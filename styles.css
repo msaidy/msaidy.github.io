@@ -35,16 +35,16 @@ li {
 /*Navigation*/
 
 
-a:link {
+a:link{
     text-decoration: none;
-    color:darkcyan;
+    color: darkcyan;
 }
 
 a:hover{
-    color:purple;
+    color: cyan;
 }
 
-a:visited {
+a:visited{
     color: aquamarine;
 }
 
