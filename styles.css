@@ -1,3 +1,5 @@
+/* Global */
+
 body{
     background: black;
 }
@@ -20,7 +22,7 @@ body{
 
 li { list-style: none; }
 
-
+/*Navigation*/
 a:visited {
     color: aquamarine;
 }
@@ -30,6 +32,10 @@ a:link {
     color:azure;
 }
 
+a:unvisited{
+    
+    color:dodgerblue;   
+}
 a:hover{
     color:darkcyan;
 }
