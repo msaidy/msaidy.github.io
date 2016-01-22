@@ -49,6 +49,11 @@ a:hover{
     color: aquamarine;
 }
 
+.navigation{
+    
+    font-family: arial;
+    font-size: 20px;
+}
 /* section/nav backgrounds*/
 
 .sectionbkg{
