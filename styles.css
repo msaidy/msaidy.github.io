@@ -53,6 +53,11 @@ a:hover{
     
     font-family: arial;
     font-size: 20px;
+    height: 75px;
+    width: 0px;
+    margin-top: 50px;
+    margin-left: 50px;
+
 }
 /* section/nav backgrounds*/
 
