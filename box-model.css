@@ -8,6 +8,8 @@ body {
     font-size: 22px;
 }
 
+
+
 * {
   box-sizing: border-box;
 }
@@ -18,11 +20,22 @@ body {
   margin: 0 auto;
     padding-left: 12px;
     padding-top: 20px
+    
 }
 
 img{
      border: 2px dotted slategray;
     padding: 10px 10px 10px 10px;
+    float: left;
+    margin-right: 10px;
+    clear:both;
+}
+
+p {
+    margin-left: 0px;
+    padding-top: 0px;
+    overflow: visible;
+    display: block;
 }
 
 .footer{
@@ -43,3 +56,4 @@ img{
     color: gray;
     padding: 10px 10px 10px 10px;
 }
+
