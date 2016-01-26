@@ -1,5 +1,11 @@
 body {
   margin: 20px;
+    font-family: arial;
+}
+
+.header{
+    background-color: lightgray;
+    font-size: 22px;
 }
 
 * {
@@ -10,4 +16,30 @@ body {
   border: 2px dotted slategray;
   width: 800px;
   margin: 0 auto;
+    padding-left: 12px;
+    padding-top: 20px
+}
+
+img{
+     border: 2px dotted slategray;
+    padding: 10px 10px 10px 10px;
+}
+
+.footer{
+    border: 2px dotted slategray;
+     margin-bottom: 5px;
+    font-family: arial;
+}
+
+.topnav{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    background-color: darkslategray;
+    border-radius: 6px;
+}
+
+.botnav{
+    color: gray;
+    padding: 10px 10px 10px 10px;
 }
