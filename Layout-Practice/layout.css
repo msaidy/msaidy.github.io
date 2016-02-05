@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+
+}
+.main-container{
+    width: 1000px;
+    margin: 0 auto 0 auto;
+}
+
+.promo-container{
+    background: palevioletred;
+}
+
+
+header{
+    display: flex;
+}
+
+
+.branding{
+    background: darkgray;
+    width: 150px;
+    height: 45px;
+    margin-right: auto;
+}
+
+header a{
+    display: inline-block;
+    background: pink;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+/*big-promo*/
+
+#big-promo{
+    padding-top: 200px;
+    background: 
+}
+
+.promo-message{
+    width: 60%;
+    padding: 50px;
+    background: pink;
+    }
+
