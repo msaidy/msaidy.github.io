@@ -18,31 +18,38 @@ header{
 
 
 .branding{
-    background: darkgray;
+    background: pink;
     width: 150px;
     height: 45px;
     margin-right: auto;
 }
 
-header a{
+.pill-button{
     display: inline-block;
     background: pink;
     padding: 10px 30px;
     border-radius: 20px;
     color: black;
     text-decoration: none;
+    font-family: centurygothic;
 }
 
+.promo{
+    
+    background: antiquewhite;
+    color: black;
+    font-size: 18px;
+}
 /*big-promo*/
 
 #big-promo{
     padding-top: 200px;
-    background: 
+    background:     
 }
 
 .promo-message{
     width: 60%;
     padding: 50px;
-    background: pink;
-    }
+    font-family: helvetica;
+}
 
