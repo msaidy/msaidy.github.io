@@ -9,6 +9,7 @@
 
 .promo-container{
     background: palevioletred;
+    border-radius: 50px;
 }
 
 
@@ -19,9 +20,10 @@ header{
 
 .branding{
     background: pink;
-    width: 150px;
+    width: 50px;
     height: 45px;
     margin-right: auto;
+    border-radius: 
 }
 
 .pill-button{
@@ -62,6 +64,7 @@ header{
 .feature{
     text-align: center;
     padding: 20px;
+    font-family: centurygothic;
 }
 
 .feature-image{
@@ -73,10 +76,17 @@ header{
 }
 
 .product-buy-it-now{
-    
     align-items: center;
 }
 .product-info{
-    
+    font-family: centurygothic;
     text-align: right;
+}
+
+#product-reviews{
+    font-family: centurygothic;
+    text-align: center;
+    padding:50px;
+    background: palevioletred;
+    border-radius: 50px
 }
