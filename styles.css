@@ -68,6 +68,15 @@ a:hover{
 #navbkg{
     background-color: dimgray;
 }
+ 
+footer{
+display: flex;
+}
+.footer-links{
+    
+}
 
-/*attribute selctors*/
-
+footer-copyright{
+    
+    text-align: right;
+}

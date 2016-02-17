@@ -9,7 +9,6 @@
 
 .promo-container{
     background: palevioletred;
-    border-radius: 50px;
 }
 
 
@@ -88,5 +87,24 @@ header{
     text-align: center;
     padding:50px;
     background: palevioletred;
-    border-radius: 50px
+}
+
+footer{
+display: flex;
+    background: pink;
+    padding: 15px 10px 15px 10px;
+    font-family: centurygothic;
+}
+
+.footer-links{
+    flex: 1;
+}
+
+footer-copyright{
+    flex: 1;
+    text-align: right;
+}
+
+.footer-copyright p{
+    margin: 0;
 }
