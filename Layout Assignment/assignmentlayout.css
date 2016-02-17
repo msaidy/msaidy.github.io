@@ -21,11 +21,17 @@
     position: relative;
     
 }
-.box-2,.box-3{
+.box-2{
 height: 570px;
     width: 960px;
     border: solid 5px;
     display: flex;
+}
+
+.box-3{
+    height: 570px;
+    width: 960px;
+    border: solid 5px;
 }
 /* box-1*/
 .red{
@@ -90,21 +96,25 @@ height: 570px;
 
 /* box-3*/
 .red3{
-    
+    background: red;
+    margin: 20px;
+    width:920px;
+    height:120px;
 }
 
 .green3{
-    
-    
+    background: lawngreen;
+    width:175px;
+    height:395px;
+    margin: 20px;
+   
 }
 
 .blue3{
-    
-    
-}
-
-.yellow3{
-    
+    background: deepskyblue;
+     width:730px;
+    height:395px;
+    margin: -415px 210px 20px; 
     
 }
 
