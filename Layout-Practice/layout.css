@@ -8,21 +8,23 @@
 }
 
 .promo-container{
-    background: palevioletred;
+    
 }
 
 
 header{
     display: flex;
+    
 }
 
 
 .branding{
-    background: pink;
-    width: 50px;
-    height: 45px;
+    width: 270px;
+    height: 297px;
     margin-right: auto;
-    border-radius: 
+    background-image: url("fleur.png");
+    margin-bottom: 20px;
+    
 }
 
 .pill-button{
@@ -30,6 +32,7 @@ header{
     background: antiquewhite;
     padding: 10px 30px;
     border-radius: 20px;
+    margin-top: 50px;
     color: black;
     text-decoration: none;
     font-family: centurygothic;
@@ -45,7 +48,7 @@ header{
 
 #big-promo{
     padding-top: 200px;
-    background:     
+    background-image: url("Memo.jpg");
 }
 
 .promo-message{
