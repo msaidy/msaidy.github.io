@@ -63,8 +63,7 @@ a:link{
     width: 60%;
     padding: 50px;
     font-family: 'Montserrat', sans-serif;
-
-   
+    font-style: bold;
 }
 
 /*Features*/
@@ -86,6 +85,7 @@ a:link{
     margin: 0 auto;
     border-radius:  50%;
     overflow: hidden;
+    
 }
 
 .maps{
@@ -109,6 +109,7 @@ display: flex;
     background: pink;
     padding: 15px 10px 15px 10px;
     font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
    
 }
 
