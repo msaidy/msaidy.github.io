@@ -35,13 +35,12 @@ header {
   font-family: 'Montserrat', sans-serif;
 }
 
-a:hover {
-  color: palevioletred;
-}
-
 a:link {
   text-decoration: none;
-  color: black;
+    color: black;
+}
+a:hover {
+  color: palevioletred;
 }
 
 .promo {
@@ -114,6 +113,7 @@ footer {
 
 .footer-links {
   flex: 1;
+    color: black;
 }
 
 footer-copyright {
