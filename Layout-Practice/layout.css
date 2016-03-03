@@ -22,8 +22,9 @@ header{
     width: 270px;
     height: 297px;
     margin-right: auto;
-    background-image: url("fleur.png");
-    margin-bottom: 20px;
+    background-image: url("sakura.png");
+    background-repeat: no-repeat;
+    margin-bottom: -145px;
     
 }
 
@@ -35,11 +36,18 @@ header{
     margin-top: 50px;
     color: black;
     text-decoration: none;
-    font-family: centurygothic;
+    font-family: 'Montserrat', sans-serif;
 }
 
+a:hover{
+    color: palevioletred;
+}
+
+a:link{
+    text-decoration: none;
+    color:black;
+}
 .promo{
-    
     background: antiquewhite;
     color: black;
     font-size: 18px;
@@ -51,14 +59,16 @@ header{
     background-image: url("Memo.jpg");
 }
 
-.promo-message{
+.message{
     width: 60%;
     padding: 50px;
-    font-family: helvetica;
+    font-family: 'Montserrat', sans-serif;
+
+   
 }
 
 /*Features*/
-.product-features, .product-buy-it-now{
+.features, .maps{
     
     display: flex;
 }
@@ -66,37 +76,40 @@ header{
 .feature{
     text-align: center;
     padding: 20px;
-    font-family: centurygothic;
+    font-family: 'Josefin Sans', sans-serif;
+   
 }
 
 .feature-image{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     margin: 0 auto;
     border-radius:  50%;
     overflow: hidden;
 }
 
-.product-buy-it-now{
+.maps{
     align-items: center;
+    font-family: 'Montserrat', sans-serif;
 }
-.product-info{
-    font-family: centurygothic;
+.kyoto-info{
+  
     text-align: right;
 }
 
-#product-reviews{
-    font-family: centurygothic;
-    text-align: center;
+#reviews{
+  text-align: center;
     padding:50px;
-    background: palevioletred;
+    background: lightpink;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 footer{
 display: flex;
     background: pink;
     padding: 15px 10px 15px 10px;
-    font-family: centurygothic;
+    font-family: 'Josefin Sans', sans-serif;
+   
 }
 
 .footer-links{
@@ -111,3 +124,5 @@ footer-copyright{
 .footer-copyright p{
     margin: 0;
 }
+
+
