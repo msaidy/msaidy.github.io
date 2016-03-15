@@ -45,7 +45,6 @@ a:hover {
 }
 
 
-
 /* Footer */
 
 footer {
@@ -53,7 +52,7 @@ footer {
   background: black;
   padding: 5px 10px 15px 10px;
   font-style: bold;
-    color: white;
+  color: white;
 }
 
 .footer-links {
@@ -73,7 +72,6 @@ footer {
   margin: 0;
   color: white;
 }
-
 
 
 /*Home.html*/
@@ -111,7 +109,8 @@ footer {
 /* Features */
 
 .featuremusic,
-.feature {
+.feature,
+.pricelist {
   display: flex;
 }
 
@@ -132,7 +131,6 @@ footer {
 .feature {
   padding-top: 100px;
   align-items: center;
-  margin-top: 50px;
   margin-bottom: 150px;
 }
 
@@ -159,121 +157,221 @@ footer {
 
 /* Features.html*/
 
-.featurefloat{
-    height:500px;
-    width: 1000px;
-    padding-top: 40px;
-    position: relative;
-    
+.featurefloat {
+  height: 500px;
+  width: 1000px;
+  padding-top: 40px;
+  position: relative;
 }
 
-
-.music-1{
-    
-   width: 250px;
-    height: 150px;
-    margin-left: 40px;
-    
+.music-1 {
+  width: 250px;
+  height: 150px;
+  margin-left: 40px;
 }
 
-.music-2{
-    
-    width: 250px;
-    height: 150px;
-    position: absolute;
-    top: 40px;
-    right: 200px;
+.music-2 {
+  width: 250px;
+  height: 150px;
+  position: absolute;
+  top: 40px;
+  right: 200px;
 }
 
-.music-3{
-   
-   width: 250px;
-    height: 150px;
-    position: absolute;
-    bottom: 125px;
-    left: 40px;
-    
+.music-3 {
+  width: 250px;
+  height: 150px;
+  position: absolute;
+  bottom: 125px;
+  left: 40px;
 }
 
-.music-4{
-    
-    width: 250px;
-    height: 150px;
-    position: absolute;
-    bottom: 125px;
-    right: 200px;  
+.music-4 {
+  width: 250px;
+  height: 150px;
+  position: absolute;
+  bottom: 125px;
+  right: 200px;
 }
 
-.featheader{
-    
-    width: 150px;
-    height: 100px;
-    position: relative;
-    right: -260px;
-    top: -120px;
-    font-size: 10px;
+.featheader {
+  width: 150px;
+  height: 100px;
+  position: relative;
+  right: -260px;
+  top: -120px;
+  font-size: 10px;
 }
 
-.promo-image{
-    width: 600px;
-    height: 150px;
-    margin-left: 200px;
+.promo-image {
+  width: 600px;
+  height: 200px;
+  margin-left: 200px;
 }
 
-.promo-text{
-    
-    text-align: center;
-    font-size: 15px;
-    width: 400px;
-    margin-left: 300px;
-    margin-top: 20px;
+.promo-text {
+  text-align: center;
+  font-size: 15px;
+  width: 400px;
+  margin-left: 300px;
+  margin-top: 20px;
 }
 
-
-.priceimage{
-    
-    display: flex;
-    margin-left: 120px;
-    margin-top: 60px;
-}
-.priceimage1{
-    background: red;
-    width: 150px;
-    height: 150px;
+.priceimage {
+  display: flex;
+  margin-left: 120px;
+  margin-top: 60px;
 }
 
-.priceimage2{
-    background: lawngreen;
-     width: 150px;
-    height: 150px;
+.priceimage1 {
+  width: 150px;
+  height: 150px;
 }
 
-.priceimage3{
-    background: deepskyblue;
-     width: 150px;
-    height: 150px;
+.priceimage2 {
+  width: 150px;
+  height: 150px;
 }
 
-.priceimage4{
-    background: yellow;
-     width: 150px;
-    height: 150px;
-}
-.priceimage5{
-    background: pink;
-    width: 150px;
-    height: 150px;
+.priceimage3 {
+  width: 150px;
+  height: 150px;
 }
 
-.price-link{
+.priceimage4 {
+  width: 150px;
+  height: 150px;
+}
+
+.priceimage5 {
+  width: 150px;
+  height: 150px;
+}
+
+.price-link {
   display: inline-block;
   padding: 10px 30px;
   color: white;
   border-radius: 50px;
   background-color: black;
   text-decoration: none;
-    margin-left: 420px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+  margin-left: 420px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+
+/* Pricing*/
+
+#pricing {
+  width: 1000px;
+  height: 400px;
+  margin-bottom: 50px;
+}
+
+.prices {
+   border: 8px solid black;
+  width: 400px;
+  height: 400px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.pricelist{
+    
+    text-align: center;
+}
+
+.buy-now{
+    
+    padding: 10px 30px;
+  color: white;
+  border-radius: 50px;
+  background-color: black;
+  text-decoration: none;
+   
+}
+
+.price-info-1{
+   width: 200px;
+     margin-top: 20px;
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 170px;
+}
+
+
+
+.price-info-2{
+    width: 200px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 140px;
+}
+
+
+
+.price-info-3{
+     width: 200px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 31px;
+}
+.pricesubhead{
+    
+    margin-top: 30px;
+}
+
+
+
+
+.notconvinced{
+    width: 200px;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 400px;
+    margin-bottom: 100px;
+}
+
+.bloglink{
+ padding: 10px 30px;
+  color: white;
+  border-radius: 50px;
+  background-color: black;
+  text-decoration: none;
+   
     
 }
+
+
+/*blog*/
+
+.article{
+    
+    width: 950px;
+    height: 1000px;
+    margin-top: 40px;
+   margin-left: 25px;
+    padding: 0 0px 40px ;
+    font-size: 20px;
+}
+
+.img1{
+    margin-top: 35px;
+    margin-left: 25px;
+    float: right;
+}
+
+.img2{
+     margin-top: 35px;
+    margin-right: 25px;
+    float: left
+}
+.blogtitle{
+   font-size: 50px;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
