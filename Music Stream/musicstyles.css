@@ -15,6 +15,7 @@
 header {
   display: block;
   background-color: black;
+    padding-top:20px;
 }
 
 .logo {
@@ -34,10 +35,12 @@ header {
   color: black;
   background-color: darkslategrey;
   text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
 }
 
 a:link {
   text-decoration: none;
+ 
 }
 
 a:hover {
@@ -50,9 +53,10 @@ a:hover {
 footer {
   display: flex;
   background: black;
-  padding: 5px 10px 15px 10px;
   font-style: bold;
   color: white;
+  font-family: 'Quicksand', sans-serif;
+    padding-top: 10px;
 }
 
 .footer-links {
@@ -60,16 +64,20 @@ footer {
   left: 780px;
   color: white;
   margin-bottom: 50px;
+    margin-left: -20px;
+    margin-right: 25px;
+   
+    
 }
 
 .signature {
-  margin-top: 20px;
+  margin-top: 30px;
   flex: 4;
   text-align: right;
 }
 
 .signature p {
-  margin: 0;
+  margin: 0px;
   color: white;
 }
 
@@ -89,16 +97,9 @@ footer {
   margin-top: -200px;
   margin-left: 200px;
   align-content: center;
+ font-family: 'Open Sans', sans-serif;
 }
 
-.pricelink {
-  display: inline-block;
-  padding: 10px 30px;
-  color: white;
-  border-radius: 50px;
-  background-color: black;
-  text-decoration: none;
-}
 
 #sign-up {
   padding-top: 300px;
@@ -119,6 +120,7 @@ footer {
   padding: 20px;
   margin-top: 50px;
   margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .music-image {
@@ -143,6 +145,7 @@ footer {
   font-size: 20px;
   margin-right: 500px;
   margin-left: -400px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .featurelink {
@@ -152,6 +155,7 @@ footer {
   border-radius: 50px;
   background-color: black;
   text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -196,11 +200,12 @@ footer {
 
 .featheader {
   width: 150px;
-  height: 100px;
+  height: 150px;
   position: relative;
   right: -260px;
-  top: -120px;
-  font-size: 10px;
+  top: -170px;
+  font-size:12px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .promo-image {
@@ -215,6 +220,7 @@ footer {
   width: 400px;
   margin-left: 300px;
   margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .priceimage {
@@ -248,18 +254,31 @@ footer {
   height: 150px;
 }
 
-.price-link {
+.pricelink {
   display: inline-block;
   padding: 10px 30px;
   color: white;
   border-radius: 50px;
   background-color: black;
   text-decoration: none;
-  margin-left: 420px;
   margin-top: 20px;
   margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
 }
 
+.price-link{
+    
+display: inline-block;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 50px;
+  background-color: black;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 30px;
+    margin-left: 450px;
+  font-family: 'Quicksand', sans-serif;
+}
 
 /* Pricing*/
 
@@ -278,61 +297,88 @@ footer {
 }
 
 .pricelist{
-    
+    display: flex;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .buy-now{
-    
-    padding: 10px 30px;
+
+padding: 10px 30px;
   color: white;
   border-radius: 50px;
   background-color: black;
   text-decoration: none;
+ 
    
 }
 
 .price-info-1{
+    font-family: 'Quicksand', sans-serif;
    width: 200px;
      margin-top: 20px;
     text-align: center;
     margin-left: 40px;
-    margin-bottom: 170px;
+    margin-bottom: 60px;
 }
 
 
 
 .price-info-2{
+    font-family: 'Quicksand', sans-serif;
     width: 200px;
-    margin-top: 10px;
     text-align: center;
     margin-left: 40px;
-    margin-bottom: 140px;
+    margin-top: -20px;
+    margin-bottom: 30px;
 }
 
 
 
 .price-info-3{
+    font-family: 'Quicksand', sans-serif;
      width: 200px;
-    margin-top: 50px;
     text-align: center;
     margin-left: 40px;
-    margin-bottom: 31px;
+    margin-bottom: 21px;
+}
+
+.priceheadermain{
+     margin-top: 20px;
+    font-size: 60px;
+    margin-bottom: 5px;
 }
 .pricesubhead{
-    
-    margin-top: 30px;
+    margin-top: -50px;
+    font-size: 25px;
+}
+
+.pricesubhead2{
+    margin-top: -2px;
+    font-size: 25px;
+    margin-bottom: -30px;
 }
 
 
+.priceheader{
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.mostpopular{
+
+    font-size: 30px;
+}
 
 
 .notconvinced{
-    width: 200px;
+    width: 400px;
     margin-top: 100px;
     text-align: center;
-    margin-left: 400px;
+    margin-left: 335px;
     margin-bottom: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
 }
 
 .bloglink{
@@ -341,6 +387,7 @@ footer {
   border-radius: 50px;
   background-color: black;
   text-decoration: none;
+    
    
     
 }
@@ -354,8 +401,10 @@ footer {
     height: 1000px;
     margin-top: 40px;
    margin-left: 25px;
-    padding: 0 0px 40px ;
-    font-size: 20px;
+    padding-right: 60px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .img1{
@@ -373,5 +422,7 @@ footer {
    font-size: 50px;
     margin-top: 40px;
     margin-left: 25px;
+    width:450px;
+    font-family: 'Quicksand', sans-serif;
 }
 
